@@ -8,6 +8,10 @@
 // by package io or package os, and those implementations
 // should be preferred in new code.
 // See the specific function documentation for details.
+
+// ioutil包实现了一些I/O实用函数。
+
+// 已弃用：从Go 1.16开始，相同的功能现在由io包或os包提供，并且应优先使用这些实现来编写新代码。有关详细信息，请参阅特定函数的文档
 package ioutil
 
 import (
